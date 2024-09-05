@@ -41,10 +41,10 @@ Easily claim your exclusive BARK NFTs using our Blink and Action APIs. **BARK (B
 2. **Application Screenshots**:
 
    2.1. **UI/UX**
-   ![UI Screenshot](.github/assets/screenshot.png)
+   ![UI Screenshot](.github/screenshot.png)
 
    2.2. **Features**
-   ![Transfer SOL Screenshot](.github/assets/features.png)
+   ![Transfer SOL Screenshot](.github/features.png)
 
    2.3. **Action**
    ![Transaction Screenshot](.github/assets/transfer-sol.png)
