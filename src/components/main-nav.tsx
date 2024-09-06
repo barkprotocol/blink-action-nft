@@ -26,15 +26,15 @@ export function MainNav({ items = [], children }: MainNavProps) {
   };
 
   return (
-    <div className="flex gap-6 md:gap-10">
-      {/* Desktop Logo and Site Name */}
+    <div className="flex items-center gap-6 md:gap-10">
+      {/* Logo and Site Name for Desktop */}
       <Link
         href="/"
         className="hidden items-center space-x-2 text-lg md:flex hover:text-foreground/80"
         aria-label={`Go to ${siteConfig.name}`}
       >
         <Image
-          src={siteConfig.logoUrl || "/icon.png"}  // Use the site's logo URL or fallback to a default
+          src={siteConfig.logoUrl || "https://ucarecdn.com/74392932-2ff5-4237-a1fa-e0fd15725ecc/bark.svg"}
           alt={`${siteConfig.name} Logo`}
           width={34}
           height={34}

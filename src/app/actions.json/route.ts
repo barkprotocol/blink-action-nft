@@ -18,6 +18,14 @@ export const GET = async () => {
         apiPath: "/api/actions/mint",
       },
       {
+        pathPattern: "/stake",
+        apiPath: "/api/actions/stake",
+      },
+      {
+        pathPattern: "/update",
+        apiPath: "/api/actions/update",
+      },
+      {
         pathPattern: "/transfer-spl",
         apiPath: "/api/actions/transfer-spl",
       },
@@ -26,8 +34,8 @@ export const GET = async () => {
         apiPath: "/api/actions/donate",
       },
       {
-        pathPattern: "/stake",
-        apiPath: "/api/actions/stake",
+        pathPattern: "/send-mail",
+        apiPath: "/api/actions/send-mail",
       },
       {
         pathPattern: "/vote",
