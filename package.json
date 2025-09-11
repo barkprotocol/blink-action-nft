@@ -51,7 +51,7 @@
     "lucide-react": "^0.436.0",
     "mailgun-js": "^0.22.0",
     "mongoose": "^8.6.1",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.1",
     "nanoid": "^5.0.7",
     "next": "^14.2.8",
     "next-themes": "^0.3.0",
